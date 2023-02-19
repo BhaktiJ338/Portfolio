@@ -1,5 +1,5 @@
 :root{
-    --fs-xl: 5rem;
+    --fs-xl: 4.8rem;
     --fs-600: 2.125rem;
     --fs-400: 1.2rem;
 }
@@ -23,8 +23,6 @@ body{
     font-size:70px;
 }
 .colored-section{
-    /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-    
     color: #22A39F;
 }
 .header-icon-button:hover{
@@ -38,7 +36,7 @@ body{
 }
 
 .navlist{
-    padding-top: 1%;
+    padding-top: 0;
     justify-content:center;
     gap: 7%;
     align-items: center;
@@ -78,7 +76,7 @@ body{
    color: #22A39F;
 }
 .top-left{
-    padding:5% 6% 6% 12%;
+    padding:1% 6% 6% 12%;
 }
 
 
@@ -129,7 +127,6 @@ body{
 }
 
 .about-text{
-    /* color: #fff; */
     color:#a8b2bd;
     text-align: center;
     font-size:var(--fs-400)
@@ -388,6 +385,9 @@ color: #161625;
         border: 0.8rem solid #55198b;
         margin-top: 5%;
         height: 550px;
+    }
+    .card-item{
+        margin-top: 4%;
     }
     .top-left{
         padding-left: 9%;
