@@ -5,9 +5,9 @@
 }
 @media (max-width: 1200px) {
     :root {
-        --fs-xl: 3rem;
+        --fs-xl: 3.5rem;
         --fs-600: 1.8rem;
-        --fs-400: 1.125rem;
+        --fs-400: 0.9rem;
     }
 }
 body{
@@ -395,11 +395,11 @@ color: #161625;
         visibility: hidden;
     }
     .skill-logo{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
     .software-skill-inline{
-        padding:1.8%;
+        padding:1.8% 3% 1.8% 3%;
     }
     .software-skill-inline>p {
         font-size: 0.8rem;
@@ -409,6 +409,9 @@ color: #161625;
         margin-top: 5%;
         height: 300px;
     }
+    .card{
+        height: 30%;
+    }
     .card-item{
         border-radius: 15px;
         margin-top: 8%;
@@ -417,6 +420,7 @@ color: #161625;
         font-size: 1rem;
     }
     .top-left{
+        padding-top: 0;
         padding-left: 9%;
         padding-right: 9%;
     }
@@ -431,6 +435,10 @@ color: #161625;
     .right-box{
         padding-top: 10% auto 0;
         text-align: center;
+    }
+    .social-media-div{
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
    .footer-text{
     font-size: 1rem;
