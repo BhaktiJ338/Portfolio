@@ -446,8 +446,8 @@ color: #161625;
    #topButton {
         bottom: 3%;
         right: 3%;
-        padding: 1%;
-        border-radius: 15px;
-        font-size: 1rem;
+        padding: 2%;
+        border-radius: 8px;
+        font-size: 0.9rem;
     }
 }
